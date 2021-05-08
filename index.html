@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+         <h1>Rock Paper Scissors</h1>
+     </header>
+     <div class="rps-scoreboard" id="rps-scoreboard">
+         <div id="rps-user-label" class="badge">user</div>
+         <div id="rps-ai-label" class="badge">ai</div>
+         <span id="rps-user-score">0</span>:<span id="rps-ai-score">0</span>
+     </div>
+
+     <div class="rps-result" id="rps-results">
+         <p>Click on an image to get started</p>
+     </div>
+     <div class="rps-choices">
+         <div class="rps-choice" id="rps-rock">
+             <img src="images/rock.png" alt="Rock">
+         </div>
+         <div class="rps-choice" id="rps-paper">
+            <img src="images/paper.png" alt="Paper">
+        </div>
+        <div class="rps-choice" id="rps-scissors">
+            <img src="images/scissors.png" alt="Scissors">
+        </div>
+     </div>
+     <p id="rps-message">Make your move</p>
+     <script src="game.js" charset="utf-8"></script>
+</body>
+</html>
